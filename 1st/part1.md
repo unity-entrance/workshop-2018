@@ -14,6 +14,53 @@
 ---
 
 ## Unityのインストール
+- まずはダウンロード
+- https://store.unity.com/ja
+- Personalを選択
+![40%](image/download.png)
+
+---
+
+## Unityのインストール
+- 条件を確認してダウンロード
+![40%](image/download2.png)
+
+---
+
+## Unityのインストール
+- Nextを選択
+![](image/install1.png)
+
+---
+
+## Unityのインストール
+- Nextを選択
+![](image/install2.png)
+
+---
+
+## Unityのインストール
+- Nextを選択
+- UnityとVisualStudio（MacだとVisualStudioCode）にチェックが入っているか確認
+![](image/install3.png)
+
+---
+
+## Unityのインストール
+- Finish
+![](image/install4.png)
+
+---
+
+## Unityのインストール
+- Nextを選択
+![](image/install5.png)
+
+---
+
+## Unityのインストール
+- 起動！
+![](image/install6.png)
 
 ---
 
@@ -71,7 +118,17 @@
 
 ---
 
-## 電源・Wifi付きカフェ
+## LT大会
+- 1人5分くらいの短い時間でプレゼンする（ライトニングトーク, LT）勉強会
+- 勉強した事をLT大会で発表する
+- Okinawa.unityでもLT大会やりました
+	- 希望があればちょいちょいやります 
+- 宜野湾エンジニア勉強会
+	- 毎月LT大会を行っている
+
+---
+
+## 電源・Wifi付きカフェ(コワーキングスペース)
 - スタートアップカフェコザ（沖縄市）（無料！）
 - CODE BASE （宜野湾市）（無料！※平日のみ）
 - スターバックス
