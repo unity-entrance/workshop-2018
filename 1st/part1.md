@@ -173,6 +173,26 @@
 ![50%](image/new-project2.png)
 ---
 
+## おすすめレイアウト
+- 左から
+	- Hierarchy
+	- Inspector
+	- Project 
+![](image/new-project3.png)
+---
+
+## おすすめレイアウト
+- One Column Layout
+![](image/new-project4.png)
+
+---
+
+## おすすめレイアウト
+- Consoleを左下に
+![](image/new-project5.png)
+
+---
+
 ## ユニティちゃんの2Dゲームのダウンロード
 - http://unity-chan.com/
 - 右上のDATA DOWNLOAD
@@ -221,3 +241,48 @@
 ![40%](image/unity-chan4.png)
 
 ---
+
+## ユニティちゃんの2Dゲームのインポート
+- UnityChan2D.unitypackageをProjectにドラッグアンドドロップ
+- Importを押す
+![70%](image/unity-chan5.png)
+
+---
+
+## ユニティちゃんの2Dゲームのインポート
+- 2Dゲームが公開されたのがちょっと前なので警告が表示される
+- 「古い機能が使われているので自動で新しい機能に置き換えますよ」
+- Go Ahead!を押す
+![100%](image/unity-chan6.png)
+
+---
+
+## Startシーンを開く
+- Startをダブルクリック
+![100%](image/unity-chan7.png)
+
+---
+
+## Sceneタブ
+- 現在開かれているシーンの内容を表示する
+- マウスホイール：拡大縮小
+- 右クリックしながら動かす：表示位置を動かす
+- Unityではゲームの場面をシーンという単位で管理する
+	- 画面 = シーンという理解でだいたいあっている 
+
+---
+
+## Hierarchyタブ
+- シーンに置かれたオブジェクトの一覧を表示する
+- オブジェクトを選択するとSceneタブでも同じものが選択される
+
+---
+
+## Inspectorタブ
+- Hierarchyタブで選択されたオブジェクトの詳細を表示する
+
+---
+
+## Projectタブ
+- ゲーム全体をProjectという単位で管理する
+- プロジェクト内のファイル（画像やソースコードなど）を全て表示している
