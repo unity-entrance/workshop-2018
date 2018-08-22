@@ -9,7 +9,7 @@
 - Unityのインストール
 - Unity入学式の説明
 - Unityの画面説明
-- Unityプロジェクトの説明
+- Startシーンの作成
 
 ---
 
