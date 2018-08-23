@@ -444,3 +444,136 @@
 ## ゲーム画面での表示の確認
 
 ![100%](image/start-scene16.png)
+
+---
+
+## ループの作成
+- Hierarchyで右クリック-> CreateEmpty
+- 名前を「Left」に変更
+- Add Componentを選択してBox Collider 2Dを追加
+- PositionのXを-16にする
+- Is Triggerにチェックを入れる
+- SizeのXを2, Yを15にする
+
+---
+
+## ループの作成
+
+![100%](image/start-scene17.png)
+
+---
+## ループの作成
+- LeftをコピーしてRigthを作成する
+- PositionのXを16にする
+
+![100%](image/start-scene18.png)
+
+---
+
+## Collider（コライダー）について
+- 当たり判定を実現するコンポーネント
+- UnityChan2DやGround, uni_0にもColliderコンポーネントが追加されている
+
+---
+
+## ループの作成
+- Projectタブで右クリック-> Create -> Folder
+- 名前をScriptsにする
+![100%](image/start-scene20.png)
+
+
+---
+## ループの作成
+- Scriptsで右クリック-> Create -> C# Script
+- 名前をStartLoopにする
+![80%](image/start-scene19.png)
+
+---
+
+## ループの作成
+- LeftとRightにAddComponentでStartLoopを追加する
+- InspectorにLoopをドラッグアンドドロップしても追加できる
+![80%](image/start-scene22.png)
+
+---
+
+## ループの作成
+- StartLoopをダブルクリック
+- VisualStudio（Macの人はVisualStudioCode）が起動する
+![80%](image/start-scene21.png)
+
+---
+## ループの作成
+StartLoopを以下の内容に書き換える
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class StartLoop : MonoBehaviour {
+
+	public Collider2D To;
+	public float OffsetX;
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.tag != "Player")
+		{
+			return;
+		}
+```
+---
+
+## ループの作成
+```
+		var pos = To.transform.position;
+
+		other.transform.position = 
+                  new Vector2(
+                    pos.x + OffsetX, 
+                    other.transform.position.y
+                  );
+	}
+}
+```
+---
+
+## ループの作成
+- HierarchyでUnityChan2Dを選択->TagでPlayerを選択
+![100%](image/start-scene23.png)
+
+---
+
+## ループの作成
+- HierarchyでLeftを選択
+- InspectorでToにRightをドラッグアンドドロップ
+- OffsetXに-2をセット
+![80%](image/start-scene24.png)
+
+---
+
+## ループの作成
+- HierarchyでRightを選択
+- InspectorでToにLeftをドラッグアンドドロップ
+- OffsetXに2をセット
+![80%](image/start-scene24.png)
+
+---
+
+## ループの作成
+- OnTriggerEnter2Dメソッド
+	- Colliderコンポーネントを持つオブジェクト（例えばUnityChan2D）が接触すると呼び出される 
+- otherは接触したオブジェクトが格納される
+- Player以外のタグが設定されていたら何もしない
+```
+if (other.tag != "Player")
+{
+	return;
+}
+```
+---
+
+
+
+## ループの作成
+
+Toには移動先のオブジェクトを設定する
