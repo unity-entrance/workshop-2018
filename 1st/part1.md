@@ -313,3 +313,25 @@
 ![100%](image/unity7.png)
 
 ---
+
+# Sratシーンの作成
+
+---
+## シーン名の変更
+- Assets -> UnityChan2D -> Scenesにある「Introduction_Demo」の名前を「Start」にする
+- Startをダブルクリックして開く
+![100%](image/start-scene1.png)
+
+---
+
+## 背景の作成
+- Hierarchyタブで右クリック-> CreateEmpty
+![70%](image/start-scene2.png)
+
+---
+
+## 背景の作成
+- 作成された「GameObject」の名前を「Backgrounds」に変更
+- PositionをX:0 Y:0 Z:0にする
+- Positionはオブジェクトの位置を表す
+![100%](image/start-scene3.png)
