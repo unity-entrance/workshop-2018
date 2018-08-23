@@ -562,7 +562,7 @@ public class StartLoop : MonoBehaviour {
 ## ループの作成
 - OnTriggerEnter2Dメソッド
 	- Colliderコンポーネントを持つオブジェクト（例えばUnityChan2D）が接触すると呼び出される 
-- otherは接触したオブジェクトが格納される
+- otherは接触したオブジェクトが格納される（例えばUnityChan2D）
 - Player以外のタグが設定されていたら何もしない
 ```
 if (other.tag != "Player")
@@ -577,3 +577,23 @@ if (other.tag != "Player")
 ## ループの作成
 
 Toには移動先のオブジェクトを設定する
+接触したオブジェクトのpositionのXの値を（移動先のオブジェクトのXの値 + 間隔）にする
+```
+var pos = To.transform.position;
+
+other.transform.position = 
+                  new Vector2(
+                    pos.x + OffsetX, 
+                    other.transform.position.y
+   
+```
+---
+
+## 動作確認
+- Unityエディタに戻って再生してみる
+- ユニティちゃんがループしているか確認する
+
+---
+## 第1回目はここまで
+- 次回はゲームスタートを実装します
+- 必要に応じてC#の説明もします
