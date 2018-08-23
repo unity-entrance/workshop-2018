@@ -331,7 +331,116 @@
 ---
 
 ## 背景の作成
-- 作成された「GameObject」の名前を「Backgrounds」に変更
+- 作成された「GameObject」の名前を「Backgrounds」に変更する
 - PositionをX:0 Y:0 Z:0にする
-- Positionはオブジェクトの位置を表す
+- Positionはオブジェクトの位置をあらわす
 ![100%](image/start-scene3.png)
+
+---
+
+## シーンの保存
+- Ctrl-S(Command-S)でシーンの変更を保存
+- 変更があるとシーン名の右にアスタリクス(*)が表示される
+![100%](image/start-scene4.png) ![100%](image/start-scene5.png)
+
+---
+
+## 背景の作成
+- 「Backgrounds」を選択して右クリック-> CreateEmpty
+- 名前を「bg_01」に変更
+- Add Componentを選択してSprite Rendererを追加
+![70%](image/start-scene6.png)
+
+---
+
+## 背景の作成
+- Spriteに「BG_01」をセットする
+- Scale（縮尺）にX:8 Y:8をセットする
+- Order in Layer（表示順）に-2をセットする
+![70%](image/start-scene7.png)
+
+---
+
+## Component
+- 画像やソースコード、サウンドなどの要素のこと
+- 空のGameObjectに要素を追加していく
+- 一つのGameObjectに複数のComponentを追加できる
+![90%](image/start-scene8.png)
+---
+
+## 背景の作成
+- bg_01を選択して右クリック->Copy
+- bg_01を選択して右クリック->Paste
+- 名前を「bg_01」にする
+- 全部でbg_01を3つ作る
+- それぞれPositionのXを-20, 0, 20にする
+![90%](image/start-scene9.png)
+
+---
+
+## 背景の作成
+- bg_01を選択して右クリック->Copy
+- bg_01を選択して右クリック->Paste
+- 名前を「bg_02」にする
+- Spriteに「BG_02」をセットする
+- PositionのYを-2.5にする
+- Scale（縮尺）にX:4.5 Y:4.5をセットする
+- Order in Layer（表示順）に-1をセットする
+
+---
+
+## 背景の作成
+- bg_02を5個コピーする
+- それぞれのPositionのXを-22, -11, 0, 11, 22にする
+
+![90%](image/start-scene10.png)
+
+---
+
+## タイトルロゴの作成
+- 「Backgrounds」を選択して右クリック-> CreateEmpty
+- 名前を「logo」に変更
+- Add Componentを選択してSprite Rendererを追加
+- Spriteに「UnityChan_logo」をセットする
+- PositionのYを3.7にする
+- Order in Layer（表示順）に-1をセットする
+![70%](image/start-scene11.png)
+
+---
+
+## ユニティちゃんの位置を上にずらす
+- Hierarchyで「UnityChan2D」を選択する
+- 左から2番めの十字矢印マークを選択する
+- 緑の矢印をドラッグして上にずらす
+
+![90%](image/start-scene12.png)
+
+---
+
+## カメラのサイズを変える
+- Hierarchyで「Main Camera」を選択する
+- Sizeを8.34にする
+
+![100%](image/start-scene13.png)
+
+---
+
+## 地面の位置を変える
+- Hierarchyで「Ground」を選択する
+- PositionのYを-6.4にする
+
+![100%](image/start-scene14.png)
+
+---
+
+## ゲーム画面での表示の確認
+- Gameタブを選択する
+- 左上のFree Aspectを16:9にする
+
+![100%](image/start-scene15.png)
+
+---
+
+## ゲーム画面での表示の確認
+
+![100%](image/start-scene16.png)
