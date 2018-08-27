@@ -479,21 +479,21 @@
 ## ループの作成
 - Projectタブで右クリック-> Create -> Folder
 - 名前をScriptsにする
-![100%](image/start-scene20.png)
+![90%](image/start-scene20.png)
 
 
 ---
 ## ループの作成
 - Scriptsで右クリック-> Create -> C# Script
 - 名前をStartLoopにする
-![80%](image/start-scene19.png)
+![60%](image/start-scene19.png)
 
 ---
 
 ## ループの作成
 - LeftとRightにAddComponentでStartLoopを追加する
 - InspectorにLoopをドラッグアンドドロップしても追加できる
-![80%](image/start-scene22.png)
+![70%](image/start-scene22.png)
 
 ---
 
@@ -547,7 +547,7 @@ public class StartLoop : MonoBehaviour {
 - HierarchyでLeftを選択
 - InspectorでToにRightをドラッグアンドドロップ
 - OffsetXに-2をセット
-![80%](image/start-scene24.png)
+![70%](image/start-scene24.png)
 
 ---
 
@@ -555,7 +555,7 @@ public class StartLoop : MonoBehaviour {
 - HierarchyでRightを選択
 - InspectorでToにLeftをドラッグアンドドロップ
 - OffsetXに2をセット
-![80%](image/start-scene24.png)
+![70%](image/start-scene24.png)
 
 ---
 
