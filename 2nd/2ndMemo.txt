@@ -12,6 +12,21 @@
 
 ・空のシーンを作って始める
 
+
+
+・フォルダ分けするのがいいよ
+・プレハブのApplyについて
+・UnityEditor便利操作
+
+・AssetStore
+　おすすめAsset
+　・DoTween
+　・宴
+　・スプラトゥーンみたいにインクを塗るやつ
+　・AStar
+
+・gitによるバージョン管理
+・
 ・VisualStudioはいいぞ
 
 ・チュートリアルが終わってしまった人向け
@@ -28,17 +43,6 @@
 　値の出力
 　ブレークポイントの使い方
 
-・フォルダ分けするのがいいよ
-・プレハブのApplyについて
-・gitによるバージョン管理
-・UnityEditor便利操作
-・AssetStore
-　おすすめAsset
-　・DoTween
-　・宴
-　・スプラトゥーンみたいにインクを塗るやつ
-　・AStar
 ・便利なwebページ紹介
-・PostEffect
-・
 
+・PostEffect
