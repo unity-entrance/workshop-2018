@@ -9,6 +9,7 @@
 - Unity入学式の説明
 - 2Dシューティングチュートリアルの説明
 - Unity初級者向けTips
+- Unity中級者向けTips
 - チュートリアルを勉強する&もくもく会
 
 ---
@@ -145,3 +146,175 @@ _Completed-Assetsフォルダには完成形が入っている
 - Scripts, Scenes, Sprites, Prefabsなど
 
  ![100%](image/folder.png)
+
+---
+
+## Unityエディタの便利な操作方法
+
+- マウスで左ドラッグ（マウスホイールでドラッグ）：視点平行移動
+- マウスで右ドラッグ：視点方向変更
+- マウスのホイール：拡大縮小
+
+---
+## Unityエディタの便利な操作方法
+Inspectorのチェックボックスを外すとシーンに表示されなくなる
+スクリプトでgameObject.SetActive(false);と書くのと同じ意味になる
+
+ ![100%](image/tips1.png)
+
+---
+
+## Unityエディタの便利な操作方法
+2016年10月に行われた「Unity道場 札幌スペシャル」での講義資料より抜粋しました
+講義資料のダウンロードはこちら
+https://drive.google.com/file/d/0ByOYqg2-zchfVGx0WjdoSm1wRDQ/view
+
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_022.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_023.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_028.jpg)
+ 
+---
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_050.jpg)
+ 
+---
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_054.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_055.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_061.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_068.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_082.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_083.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_090.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_092.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_093.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_094.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_096.jpg)
+ 
+---
+
+## Unityエディタの便利な操作方法
+
+![100%](image/Unity-Dojyo_161015-01_yamamura_101.jpg)
+ 
+---
+
+# Unity中級者向けTips
+
+---
+
+# Unity中級者向けTips
+
+詳細な資料を作るのが間に合いませんでした。。
+すみません。
+今回は項目だけ並べるので詳しく知りたい人は質問してください。
+
+---
+
+# Unity中級者向けTips
+
+- AssetStore
+- おすすめAsset
+  - DoTween
+  - 宴
+  - スプラトゥーンみたいにインクを塗るやつ
+  - AStar
+
+---
+
+# Unity中級者向けTips
+
+- プレハブのApplyについて(プレハブの説明)
+- gitによるバージョン管理
+- VisualStudioはいいぞ
+  - Riderもいいかも
+---
+
+# Unity中級者向けTips
+- チュートリアルが終わってしまった人向け
+　- 弾幕
+　- ステージ増やす
+　- 残機システム
+　- 敵が自機を追いかけてくる
+　- 敵の弾が自機を追いかけてくる
+- チュートリアルはできるが自分がやりたいことができない
+　⇒詳しい人に全部聞く
+　⇒チュートリアルをたくさんやる
+
+---
+
+# Unity中級者向けTips
+
+- デバッグのやり方
+  - 値の出力
+  - ブレークポイントの使い方
+
+- 便利なwebページ紹介
+
+- PostEffect
